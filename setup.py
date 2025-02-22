@@ -8,7 +8,7 @@ build_options = {'packages': [], 'excludes': [], 'include_files':['icone.ico']}
 base = 'Win32GUI' if sys.platform=='win32' else None
 
 executables = [
-    Executable('main.py', base=base, icon="icone.ico", target_name="PDF to Word Converter")
+    Executable('main.py', base=base, icon="icone.ico", target_name="PDF-to-Word-Converter")
 ]
 
 setup(name='PDF-to-Word-Converter',
