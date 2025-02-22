@@ -29,6 +29,7 @@ def pdf_to_word_ui():
 
 # Configuração da interface gráfica
 root = tk.Tk()
+root.iconbitmap('icone.ico')
 root.title("Conversor PDF para Word")
 
 # Elementos da interface gráfica
